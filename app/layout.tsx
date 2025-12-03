@@ -3,8 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Syntra – Premium Next.js Tailwind Template",
-  description:
-    "Modern, responsive, SaaS-ready landing page template built with Next.js and Tailwind.",
+  description: "Modern, responsive, SaaS-ready landing page template built with Next.js and Tailwind.",
 };
 
 export default function RootLayout({
@@ -22,7 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-gray-50 text-gray-900 dark:bg-dark-bg dark:text-gray-100 transition-colors duration-300">
+      <body className="bg-gray-50 text-gray-900 dark:bg-neutral-900 dark:text-gray-100 transition-colors duration-300">
         {children}
       </body>
     </html>
