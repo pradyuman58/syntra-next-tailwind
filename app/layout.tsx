@@ -1,16 +1,12 @@
-import type { ReactNode } from "react";
 import "./globals.css";
+import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Syntra – Premium Next.js Tailwind Template",
   description: "Modern, responsive, SaaS-ready landing page template built with Next.js and Tailwind.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -21,7 +17,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-gray-50 text-gray-900 dark:bg-neutral-900 dark:text-gray-100 transition-colors duration-300">
+      <body className="bg-gray-50 text-gray-900">
         {children}
       </body>
     </html>
