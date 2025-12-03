@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import "./globals.css";
+import "./global.css";
 
 export const metadata = {
   title: "Syntra – Premium Next.js Tailwind Template",
