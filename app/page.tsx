@@ -1,8 +1,8 @@
 "use client";
 
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Features from "../components/Features";
 
 export default function Home() {
   return (
@@ -20,7 +20,6 @@ export default function Home() {
       <footer className="mt-32 text-center text-gray-400 pb-10">
         © 2025 Syntra. All rights reserved.
       </footer>
-
     </main>
   );
 }
