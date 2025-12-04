@@ -1,12 +1,19 @@
 "use client";
 
+import ThemeToggle from "./ThemeToggle";
+
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-6 py-4 z-20 relative">
-      <h1 className="text-2xl font-bold text-gradient">Syntra</h1>
-      <button className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 transition">
-        Get Started
-      </button>
+    <nav className="flex justify-between items-center px-8 py-5">
+      <h1 className="text-2xl font-bold">Syntra</h1>
+
+      <div className="flex items-center gap-6">
+        <a href="#features" className="hover:text-blue-600">Features</a>
+        <a href="#pricing" className="hover:text-blue-600">Pricing</a>
+        <a href="/docs" className="hover:text-blue-600">Docs</a>
+
+        <ThemeToggle />
+      </div>
     </nav>
   );
 }
